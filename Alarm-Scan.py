@@ -22,7 +22,7 @@ def handle_packet(pkt):
         try:
             wrpcap('captured.pcap', pkt, append=True)
         except Exception as error:
-            Log(error)Alam
+            Log(error)
         
 
 
